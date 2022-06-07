@@ -938,6 +938,9 @@ address {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 
 .contacts-link-tel-footer {
@@ -945,6 +948,9 @@ address {
     font-size: 14px;
     line-height: 1.71;
     color: rgba(255, 255, 255, 0.6);
+    transition-property: color;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--timing-function);
 }
 
 .link-mail-footer {
